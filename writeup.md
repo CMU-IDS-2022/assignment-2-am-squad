@@ -1,4 +1,4 @@
-# Project name
+# Unmasking COVID-19 Behavior and Perception
 
 ![A screenshot of your application. Could be a GIF.](screenshot.png)
 
