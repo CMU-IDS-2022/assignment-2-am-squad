@@ -1,5 +1,7 @@
 # Unmasking COVID-19 Behavior and Perception
 
+https://share.streamlit.io/cmu-ids-2022/assignment-2-am-squad
+
 ![p1](img/p1.png)
 
 ![p1](img/p2.png)
