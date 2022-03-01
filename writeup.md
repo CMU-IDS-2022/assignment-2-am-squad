@@ -1,9 +1,6 @@
 # Unmasking COVID-19 Behavior and Perception
 
-![A screenshot of your application. Could be a GIF.](screenshot.png)
-TODO: Update screenshot
-
-TODO: Short abstract describing the main goals and how you achieved them.
+![p1](img/p1.png)
 
 This project develops a data-visualization web-application using Altair and Streamlit to study the way people's perception and actual behavior with repsect to vaccination and masking change as the pandemic evolves. We chose to study and visualize data from two data sources made available from [COVIDcast](https://delphi.cmu.edu/covidcast/export/) -
 
@@ -23,8 +20,6 @@ The goal of the streamlit application we developed for this assignment is to giv
 
 ## Design
 
-TODO: **A rationale for your design decisions.** How did you choose your particular visual encodings and interaction techniques? What alternatives did you consider and how did you arrive at your ultimate choices?
-
 The nature of the questions we chose were such that they had to be answered using time-series data. The visualization developed for studying both vaccination as well as masking were line/area graphs since they are conducive to representing time series data.
 
 ### Vaccination Visualizations
@@ -34,8 +29,6 @@ To study the interactions between people's perceptions of vaccine effectiveness 
 In order to study how behavior and perceptions related to masking change with case counts, we chose to plot three line graphs, one for the proportion of survey respondents who reported that they wore a mask in public places in the last 7 days, one for the proportion of respondents who believe masking is effective in curbing the spread of COVID-19, and one for the confirmed case count. Plotting all three in the same figure enabled easy comparison. However, there is room for improvement to facilitate better comparison across each of these signals. To begin with, we chose to implement a multiline tooltip i.e. a vertical line connecting all three lines at each point on the x axis along with their corresponding y values. The multiline tooltip makes it easy to identify how one series changes with respect to the other. For example, as you mouseover the plot from a region of low to high casecounts, the multiline toolip highlights exactly how the other two signals change. Much of the code to implement this feature comes from an [Altair example](https://altair-viz.github.io/gallery/multiline_tooltip.html). A user might want to study each series in isolation or study two at a time. To facilitate this, we also added an interactive legend that allows you to multi-select lines to simultaneously display. 
 
 ## Development
-
-TODO: **An overview of your development process.** Describe how the work was split among the team members. Include a commentary on the development process, including answers to the following questions: Roughly how much time did you spend developing your application (in people-hours)? What aspects took the most time?
 
 Our goals were focussed on two key COVID related human behaviors - vaccination and masking. 
 
@@ -47,8 +40,6 @@ The data exploration and development phase of the assignment was the most time c
 
 
 ## Success Story
-
-TODO:  **A success story of your project.** Describe an insight or discovery you gain with your application that relates to the goals of your project.
 
 ### Vaccination Visualizations
 As seen from the vaccination belief vs behavior graph, there is a significant rift between the percentage of people who believe in the effectiveness of vaccines vs those that actually get the vaccine. There might be multiple factors to this including limited access to vaccines or some degree of fear toward their adoption. However, we observe that this gap between behavior vs perception was significant in the early periods and has narrowed down over time as the pandemic progressed. This is expected as more scientific evidence of the vaccines' effectiveness came to light since their first introduction which assured people in favor of vaccines. 
