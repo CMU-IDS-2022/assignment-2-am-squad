@@ -2,6 +2,10 @@
 
 ![p1](img/p1.png)
 
+![p1](img/p2.png)
+
+![p1](img/p3.png)
+
 This project develops a data-visualization web-application using Altair and Streamlit to study the way people's perception and actual behavior with repsect to vaccination and masking change as the pandemic evolves. We chose to study and visualize data from two data sources made available from [COVIDcast](https://delphi.cmu.edu/covidcast/export/) -
 
 *  **Delphi US COVID-19 Trends and Impact Survey** - This dataset contains reponses from surveys about COVID-19 beliefs and behaviors administered on Facebook. We look at the data about proportion of respondents who wear masks, believe wearing masks is effective, are vaccinated and believe vaccination is effective
